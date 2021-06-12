@@ -1,0 +1,43 @@
+{
+  "name": "decode-eth-abi",
+  "version": "1.0.0",
+  "description": "Decode Abi Data Params From Ethereum Transaction",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack serve --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "elxor",
+  "license": "MIT",
+  "keywords": [
+    "js",
+    "javascript",
+    "ethereum",
+    "decode-eth-abi"
+  ],
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.4",
+    "css-minimizer-webpack-plugin": "^2.0.0",
+    "gh-pages": "^3.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.5.1",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "abi-decoder": "^2.4.0",
+    "buffer": "^6.0.3",
+    "human-standard-token-abi": "^2.0.0"
+  }
+}
